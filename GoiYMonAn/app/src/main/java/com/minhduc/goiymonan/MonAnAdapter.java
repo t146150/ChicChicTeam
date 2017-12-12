@@ -45,7 +45,7 @@ public class MonAnAdapter extends BaseAdapter {
 
     private class ViewHolder {
         ImageView imgHinh;
-        TextView txtTen, txtMota, txtGia;
+        TextView txtTen, txtGia;
     }
 
     @Override
@@ -60,7 +60,7 @@ public class MonAnAdapter extends BaseAdapter {
             holder.imgHinh = (ImageView) view.findViewById(R.id.imageviewSanPham);
             holder.txtTen = (TextView) view.findViewById(R.id.textviewTenSanPham);
             holder.txtGia = (TextView) view.findViewById(R.id.textviewGia);
-            holder.txtMota = (TextView) view.findViewById(R.id.textviewClick);
+
             view.setTag(holder);
         } else {
             holder = (ViewHolder) view.getTag();
@@ -69,7 +69,7 @@ public class MonAnAdapter extends BaseAdapter {
         MonAn monAn = sanPhamList.get(i);
 
         holder.txtTen.setText(monAn.TenSP);
-        holder.txtMota.setText(monAn.MoTa);
+
         DecimalFormat dinhdangSo = new DecimalFormat("###,###,###");
         holder.txtGia.setText(dinhdangSo.format(monAn.GiaSP) + "Đ");
         Picasso.with(context).load(monAn.HinhSP).into(holder.imgHinh);
