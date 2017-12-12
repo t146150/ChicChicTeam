@@ -51,7 +51,7 @@
                         android:textStyle="bold"
                         android:textColor="#ff00"
                         android:textSize="30sp"
-                        android:text="Sửa Món Ănn"
+                        android:text="Sửa Món Ăn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
