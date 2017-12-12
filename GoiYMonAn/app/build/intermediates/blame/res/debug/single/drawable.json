@@ -1,0 +1,594 @@
+[
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hnayangi.jpg",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\hnayangi.jpg"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_photo.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\no_photo.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cook_b.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\cook_b.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\product_icon.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\product_icon.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cook.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\cook.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cook.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\cook.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cook_b.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\cook_b.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\error.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\loading.jpg"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.jpg",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\loading.jpg"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\giohang.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\giohang.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sanpham.jpg",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\sanpham.jpg"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\giohang.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\giohang.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hnayangi.jpg",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\hnayangi.jpg"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_photo.png",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\no_photo.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\product_icon.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\product_icon.png"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error.png",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\drawable\\error.png"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\b2286448447f28d7ccf619ef35ca54a2281912e7\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sanpham.jpg",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\drawable\\sanpham.jpg"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\2a4960c9354379dde6ef3940bd8098d064456f22\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\15986518932fe93ee42846fab58070a323c9b670\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\minhduc\\.android\\build-cache\\7342791d9aacf1fd17dea96f446213c05f18a1aa\\output\\res\\drawable\\notification_tile_bg.xml"
+    }
+]
