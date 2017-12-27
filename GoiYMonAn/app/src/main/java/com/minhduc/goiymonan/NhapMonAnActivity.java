@@ -63,7 +63,7 @@ public class NhapMonAnActivity extends AppCompatActivity {
         AnhXa();
         arrayIdLoai = new ArrayList<>();
         arrayTenLoai = new ArrayList<>();
-        NavigationView();
+        //NavigationView();
         // đổ dữ liệu cho spinner loại sản phẩm
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayTenLoai);
         spLoaiSP.setAdapter(adapter);
@@ -74,48 +74,70 @@ public class NhapMonAnActivity extends AppCompatActivity {
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                StorageReference mountainsRef = storageRef.child("SanPham/hinhanh"+ System.currentTimeMillis() +".png");
+                String tenmonan =edtTen.getText().toString().trim();
+                String giamonan =edtGia.getText().toString().trim();
+                String motamonan =edtMoTa.getText().toString().trim();
 
-                BitmapDrawable bitmapDrawable = (BitmapDrawable) imgHinh.getDrawable();
-                Bitmap bitmap = bitmapDrawable.getBitmap();
-                ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
-                byte[] data = baos.toByteArray();
 
-                UploadTask uploadTask = mountainsRef.putBytes(data);
-                uploadTask.addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception exception) {
-                        Toast.makeText(NhapMonAnActivity.this, "Upload hình SP lỗi!", Toast.LENGTH_SHORT).show();
+                if (tenmonan.isEmpty()== true || giamonan.isEmpty()== true || motamonan.isEmpty()== true )
+                {
+                    Toast.makeText(NhapMonAnActivity.this, "Vui lòng nhập đầy đủ thông tin món ăn", Toast.LENGTH_SHORT).show();
+                }
+                else  {
+
+                    final int value = Integer.valueOf(giamonan);
+                    if (value > 5000000 || value < 5000) {
+                        // do what you want
+                        Toast.makeText(NhapMonAnActivity.this, "Giá sản phẩm không hợp lệ quá thấp hơn 5.000 hoặc cao hơn 5.000.000", Toast.LENGTH_SHORT).show();
                     }
-                }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                    @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        // taskSnapshot.getMetadata() contains file metadata such as size, content-type, and download URL.
-                        Uri downloadUrl = taskSnapshot.getDownloadUrl();
-                        Toast.makeText(NhapMonAnActivity.this, "Upload hình SP thành công", Toast.LENGTH_SHORT).show();
+                    else {
+                        /// up load thành cong
+                        StorageReference mountainsRef = storageRef.child("SanPham/hinhanh"+ System.currentTimeMillis() +".png");
 
-                        // add vào database
-                        MonAn sanpham = new MonAn(
-                                null,
-                                idLoai,
-                                edtTen.getText().toString(),
-                                Integer.parseInt(edtGia.getText().toString()),
-                                String.valueOf(downloadUrl),
-                                edtMoTa.getText().toString()
-                        );
-                        mData.child("MonAn").push().setValue(sanpham, new DatabaseReference.CompletionListener() {
+                        BitmapDrawable bitmapDrawable = (BitmapDrawable) imgHinh.getDrawable();
+                        Bitmap bitmap = bitmapDrawable.getBitmap();
+                        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
+                        byte[] data = baos.toByteArray();
+                        UploadTask uploadTask = mountainsRef.putBytes(data);
+                        uploadTask.addOnFailureListener(new OnFailureListener() {
                             @Override
-                            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-                                if(databaseError == null){
-                                    Toast.makeText(NhapMonAnActivity.this, "Thêm món thành công", Toast.LENGTH_SHORT).show();
-                                }else {
-                                    Toast.makeText(NhapMonAnActivity.this, "Lỗi thêm món!", Toast.LENGTH_SHORT).show();
-                                }
+                            public void onFailure(@NonNull Exception exception) {
+                                Toast.makeText(NhapMonAnActivity.this, "Upload hình SP lỗi!", Toast.LENGTH_SHORT).show();
+                            }
+                        }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                                // taskSnapshot.getMetadata() contains file metadata such as size, content-type, and download URL.
+                                Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                                Toast.makeText(NhapMonAnActivity.this, "Upload hình SP thành công", Toast.LENGTH_SHORT).show();
+
+                                // add vào database
+                                MonAn sanpham = new MonAn(
+                                        null,
+                                        idLoai,
+                                        edtTen.getText().toString(),
+                                        Integer.parseInt(edtGia.getText().toString()),
+                                        String.valueOf(downloadUrl),
+                                        edtMoTa.getText().toString()
+                                );
+                                mData.child("MonAn").push().setValue(sanpham, new DatabaseReference.CompletionListener() {
+                                    @Override
+                                    public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                                        if(databaseError == null){
+                                            Toast.makeText(NhapMonAnActivity.this, "Thêm món thành công", Toast.LENGTH_SHORT).show();
+                                        }else {
+                                            Toast.makeText(NhapMonAnActivity.this, "Lỗi thêm món!", Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                });
                             }
                         });
                     }
-                });
+
+
+                }
+
             }
         });
 
@@ -171,32 +193,30 @@ public class NhapMonAnActivity extends AppCompatActivity {
         });
 
 
-        navigationView.setNavigationItemSelectedListener(null);
-
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId()) {
-                    case R.id.menuTrangChu:
-                        Intent intent1 = new Intent(NhapMonAnActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                        break;
-                    case R.id.menuDangXuat:
-                        Intent intent2 = new Intent(NhapMonAnActivity.this, DangNhapActivity.class);
-                        startActivity(intent2);
-                        break;
-                    case R.id.menuDatHang:
-                        Intent intent3 = new Intent(NhapMonAnActivity.this, DanhSachDatHangActivity.class);
-                        startActivity(intent3);
-                        break;
-
-
-                }
-
-                return false;
-            }
-        });
+//        navigationView.setNavigationItemSelectedListener(null);
+//
+//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+//            @Override
+//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+//
+//                switch (item.getItemId()) {
+//                    case R.id.menuTrangChu:
+//                        Intent intent1 = new Intent(NhapMonAnActivity.this, MainActivity.class);
+//                        startActivity(intent1);
+//                        break;
+//                    case R.id.menuDangXuat:
+//                        Intent intent2 = new Intent(NhapMonAnActivity.this, DangNhapActivity.class);
+//                        startActivity(intent2);
+//                        break;
+//                    case R.id.menuDatHang:
+//                        Intent intent3 = new Intent(NhapMonAnActivity.this, DanhSachDatHangActivity.class);
+//                        startActivity(intent3);
+//                        break;
+//                }
+//
+//                return false;
+//            }
+//        });
 
     }
 
@@ -221,30 +241,30 @@ public class NhapMonAnActivity extends AppCompatActivity {
         btnThem = (Button) findViewById(R.id.buttonThemSPNhap);
         spLoaiSP = (Spinner) findViewById(R.id.spinnerLoaiSP);
 
-        navigationView = (NavigationView) findViewById(R.id.myNavigationView);
-        drawerLayout = (DrawerLayout) findViewById(R.id.myDrawerLayout);
-        toolbar = (Toolbar) findViewById(R.id.myToolbar);
+//        navigationView = (NavigationView) findViewById(R.id.myNavigationView);
+//        drawerLayout = (DrawerLayout) findViewById(R.id.myDrawerLayout);
+//        toolbar = (Toolbar) findViewById(R.id.myToolbar);
     }
-    public void NavigationView()
-    {
-        setSupportActionBar(toolbar);
-        //set màu của bar
-        toolbar.setBackgroundColor(Color.BLUE);
-        //enable cái icon lên
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        // chèn icon ba gạch
-        toolbar.setNavigationIcon(android.R.drawable.ic_menu_sort_by_size);
-
-        // sự kiện khi nhấn nút hiện ra cái navigation
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // chạy cái navigation ra thông qua cái Drawer
-                drawerLayout.openDrawer(Gravity.START);
-            }
-        });
-
-        //set lại màu
-
-    }
+//    public void NavigationView()
+//    {
+//        setSupportActionBar(toolbar);
+//        //set màu của bar
+//        toolbar.setBackgroundColor(Color.BLUE);
+//        //enable cái icon lên
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        // chèn icon ba gạch
+//        toolbar.setNavigationIcon(android.R.drawable.ic_menu_sort_by_size);
+//
+//        // sự kiện khi nhấn nút hiện ra cái navigation
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                // chạy cái navigation ra thông qua cái Drawer
+//                drawerLayout.openDrawer(Gravity.START);
+//            }
+//        });
+//
+//        //set lại màu
+//
+//    }
 }

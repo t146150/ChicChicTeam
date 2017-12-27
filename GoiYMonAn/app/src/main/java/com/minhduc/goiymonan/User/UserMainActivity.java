@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -39,7 +40,7 @@ public class UserMainActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
 
-   String idMonNgon ="";
+    String idMonNgon ="";
     ArrayList<LoaiMonAn> arrayLoaiSP;
     LoaiMonAnAdapter adapter;
     DatabaseReference mData;
@@ -150,6 +151,7 @@ public class UserMainActivity extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case R.id.menuDangXuat:
+                        LoginManager.getInstance().logOut();
                         Intent intent2 = new Intent(UserMainActivity.this, DangNhapActivity.class);
                         startActivity(intent2);
                         break;

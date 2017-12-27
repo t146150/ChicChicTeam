@@ -12,8 +12,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.minhduc.goiymonan.ChiTietGioHangActivity;
 import com.minhduc.goiymonan.DangNhapActivity;
 import com.minhduc.goiymonan.R;
 
@@ -33,56 +36,30 @@ public class GioHangActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gio_hang);
-        lvGioHang = (ListView) findViewById(R.id.listGioHang);
+        lvGioHang = (ListView) findViewById(R.id.listGioHang) ;
 
         arrayGioHang = new ArrayList<>();
 
         adapter = new GioHangAdapter(this, R.layout.dong_gio_hang, arrayGioHang);
         lvGioHang.setAdapter(adapter);
-
         AnhXa();
-        NavigationView();
+        // NavigationView();
         LoadData();
-
-
         //set lại màu
-        navigationView.setNavigationItemSelectedListener(null);
 
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+        lvGioHang.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                switch (item.getItemId()) {
-                    case R.id.menuTrangChu:
-                        Intent intent1 = new Intent(GioHangActivity.this, UserMainActivity.class);
-                        startActivity(intent1);
-                        break;
-                    case R.id.menuDangXuat:
-                        Intent intent2 = new Intent(GioHangActivity.this, DangNhapActivity.class);
-                        startActivity(intent2);
-                        break;
-                    case R.id.menuGioHang:
-                        Intent intent3 = new Intent(GioHangActivity.this, GioHangActivity.class);
-                        startActivity(intent3);
-                        break;
-                    case R.id.menuContact:
-                        Intent intent4 = new Intent(GioHangActivity.this, ContactActivity.class);
-                        startActivity(intent4);
-                        break;
-                    case R.id.menuVideo:
-                        Intent intent5 = new Intent(GioHangActivity.this, DanhSachVideoActivity.class);
-                        startActivity(intent5);
-                        break;
+                Intent intent = new Intent(GioHangActivity.this, ChiTietGioHangActivity.class);
+                intent.putExtra("idCuaSanPham", arrayGioHang.get(i).IdSanPham);
+               // Toast.makeText(GioHangActivity.this, arrayGioHang.get(i).IdSanPham+"", Toast.LENGTH_SHORT).show();
+                startActivity(intent);
 
-                }
-
-                return false;
             }
         });
+
     }
-
-
-
 
     private void LoadData()
     {
@@ -120,6 +97,7 @@ public class GioHangActivity extends AppCompatActivity {
                 drawerLayout.openDrawer(Gravity.START);
             }
         });
+
     }
 
     private void AnhXa()

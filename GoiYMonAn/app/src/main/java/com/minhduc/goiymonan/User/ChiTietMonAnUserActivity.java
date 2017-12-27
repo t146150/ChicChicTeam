@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -88,6 +89,7 @@ public class ChiTietMonAnUserActivity extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case R.id.menuDangXuat:
+                        LoginManager.getInstance().logOut();
                         Intent intent2 = new Intent(ChiTietMonAnUserActivity.this, DangNhapActivity.class);
                         startActivity(intent2);
                         break;

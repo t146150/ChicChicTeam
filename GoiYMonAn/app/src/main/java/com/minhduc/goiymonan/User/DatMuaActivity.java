@@ -18,12 +18,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.minhduc.goiymonan.DangNhapActivity;
 import com.minhduc.goiymonan.DatHang;
+import com.minhduc.goiymonan.NhapMonAnActivity;
 import com.minhduc.goiymonan.R;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DatMuaActivity extends AppCompatActivity {
     EditText edtHoten, edtEmail, edtSoDT, edtChiChu;
@@ -33,6 +38,7 @@ public class DatMuaActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+    boolean checkTen = false, checkSDT = false, checkEmail = false ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +68,7 @@ public class DatMuaActivity extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case R.id.menuDangXuat:
+                        LoginManager.getInstance().logOut();
                         Intent intent2 = new Intent(DatMuaActivity.this, DangNhapActivity.class);
                         startActivity(intent2);
                         break;
@@ -90,34 +97,58 @@ public class DatMuaActivity extends AppCompatActivity {
         xacNhanMua.setPositiveButton("Có", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                DatHang datHang = new DatHang(
-                        null,
-                        idSP,
-                        edtHoten.getText().toString(),
-                        edtEmail.getText().toString(),
-                        edtSoDT.getText().toString(),
-                        edtChiChu.getText().toString()
-                );
-                mData.child("ORDER").push().setValue(datHang, new DatabaseReference.CompletionListener() {
-                    @Override
-                    public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                String hoten =edtHoten.getText().toString().trim();
+                String email =edtEmail.getText().toString().trim();
+                String sdt =edtSoDT.getText().toString().trim();
 
-                        if (databaseError == null){
-                            Toast.makeText(DatMuaActivity.this, "Đặt mua thành công\n chúng tôi sẽ sớm liên hệ với bạn", Toast.LENGTH_SHORT).show();
-                            finish();
-                        }
-                        else {
-                            Toast.makeText(DatMuaActivity.this, "Xảy ra lỗi, vui lòng thử lại", Toast.LENGTH_SHORT).show();
-                        }
+                if (hoten.isEmpty()== true || email.isEmpty()== true || sdt.isEmpty()== true )
+                {
+                    Toast.makeText(DatMuaActivity.this, "Vui lòng nhập đầy đủ thông tin đặt mua", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    //check ho ten
+                    String chuoi_mauHoTen = "[a-zA-z]*([,.\\\\s]+[a-z]*)*";
+                    Pattern pattern = Pattern.compile(chuoi_mauHoTen);
+                    Matcher matcher = pattern.matcher(hoten);
+                    if (matcher.matches()==true)
+                    {
+                        checkTen = true;
                     }
-                });
-                Time today = new Time(Time.getCurrentTimezone());
+                    else{
+                        Toast.makeText(DatMuaActivity.this, "Vui lòng nhập đúng định dạng tên", Toast.LENGTH_SHORT).show();
+                    }
+                    //check email
+                    //311878742
+                    String chuoi_mauEmail = "\\w+@\\w+\\.\\w+";
+                    //=”\\w+@\\w+\\.\\w+”;
+                    Pattern pattern2 = Pattern.compile(chuoi_mauEmail);
+                    Matcher matcher2 = pattern2.matcher(email);
+                    if (matcher2.matches()==true)
+                    {
+                        checkEmail = true;
+                    }
+                    else{
+                        Toast.makeText(DatMuaActivity.this, "Vui lòng nhập đúng định dạng Email", Toast.LENGTH_SHORT).show();
 
-                today.setToNow();
-                String time =  today.format("%k:%M:%S") +"";
-                String ghichu =  edtChiChu.getText().toString().trim();
-                UserMainActivity.database.
-                        QueryData("INSERT INTO GioHangUser VALUES(null, '" +idSP +"', '" + time + "', '"  +  ghichu+ "')" );
+                    }
+                    //check sdt
+                    String chuoi_mauSDT = "0\\d{9,10}";
+
+                    Pattern pattern3 = Pattern.compile(chuoi_mauSDT);
+                    Matcher matcher3 = pattern3.matcher(sdt);
+                    if (matcher3.matches()==true)
+                    {
+                        checkSDT = true;
+                    }
+                    else{
+                        Toast.makeText(DatMuaActivity.this, "Vui lòng nhập đúng định dạng số điện thoại", Toast.LENGTH_SHORT).show();
+                    }
+                    // thoa man cac yeu to
+                    if (checkTen ==true && checkEmail == true && checkSDT ==true) {
+                        UploadDuLieuMua();
+                    }
+                }
+
             }
         });
         xacNhanMua.setNegativeButton("Không ", new DialogInterface.OnClickListener() {
@@ -129,6 +160,63 @@ public class DatMuaActivity extends AppCompatActivity {
         xacNhanMua.show();
     }
 
+    public void UploadDuLieuMua() {
+        // upload len database
+        DatHang datHang = new DatHang(
+                null,
+                idSP,
+                edtHoten.getText().toString(),
+                edtEmail.getText().toString(),
+                edtSoDT.getText().toString(),
+                edtChiChu.getText().toString()
+        );
+        mData.child("ORDER").push().setValue(datHang, new DatabaseReference.CompletionListener() {
+            @Override
+            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+
+                if (databaseError == null){
+                    Toast.makeText(DatMuaActivity.this, "Đặt mua thành công\n chúng tôi sẽ sớm liên hệ với bạn", Toast.LENGTH_SHORT).show();
+                    finish();
+                }
+                else {
+                    Toast.makeText(DatMuaActivity.this, "Xảy ra lỗi, vui lòng thử lại", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+        //upload database SQL
+        Time today = new Time(Time.getCurrentTimezone());
+
+        today.setToNow();
+        String time =  today.format("%k:%M:%S") +"";
+        String ghichu =  edtChiChu.getText().toString().trim();
+        UserMainActivity.database.
+                QueryData("INSERT INTO GioHangUser VALUES(null, '" +idSP + "', '" + time + "', '"  +  ghichu+ "')" );
+
+
+        // gui thong bao email toi user
+//                Intent i = new Intent(Intent.ACTION_SEND);
+//                i.setType("message/rfc822");
+//                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{edtEmail.getText().toString()});
+//                i.putExtra(Intent.EXTRA_SUBJECT, "subject of email");
+//                i.putExtra(Intent.EXTRA_TEXT   , "bạn đã đặt mua"+ idSP);
+//                try {
+//                    startActivity(Intent.createChooser(i, "Send mail..."));
+//                } catch (android.content.ActivityNotFoundException ex) {
+//                    Toast.makeText(DatMuaActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+//                }
+        // gui email thong bao toi admin
+
+        Intent i2 = new Intent(Intent.ACTION_SEND);
+        i2.setType("message/rfc822");
+        i2.putExtra(Intent.EXTRA_EMAIL  , new String[]{"ducle624@gmail.com"});
+        i2.putExtra(Intent.EXTRA_SUBJECT, "subject of email");
+        i2.putExtra(Intent.EXTRA_TEXT   , "Toi muon dat mua "+ idSP);
+        try {
+            startActivity(Intent.createChooser(i2, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(DatMuaActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        }
+    }
     public void NavigationView() {
         setSupportActionBar(toolbar);
         //set màu của bar

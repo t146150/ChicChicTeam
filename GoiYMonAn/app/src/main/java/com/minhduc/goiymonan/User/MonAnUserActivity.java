@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -116,6 +117,7 @@ public class MonAnUserActivity extends AppCompatActivity {
                         break;
                     case R.id.menuDangXuat:
                         Intent intent2 = new Intent(MonAnUserActivity.this, DangNhapActivity.class);
+                        LoginManager.getInstance().logOut();
                         startActivity(intent2);
                         break;
                     case R.id.menuGioHang:
