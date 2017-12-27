@@ -3,7 +3,6 @@ package com.minhduc.goiymonan;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,8 +11,6 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Gravity;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -106,33 +103,6 @@ public class NhapLoaiMonAnActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQUESR_CODE_IMAGE);
             }
         });
-
-        navigationView.setNavigationItemSelectedListener(null);
-
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId()) {
-                    case R.id.menuTrangChu:
-                        Intent intent1 = new Intent(NhapLoaiMonAnActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                        break;
-                    case R.id.menuDangXuat:
-                        Intent intent2 = new Intent(NhapLoaiMonAnActivity.this, DangNhapActivity.class);
-                        startActivity(intent2);
-                        break;
-                    case R.id.menuDatHang:
-                        Intent intent3 = new Intent(NhapLoaiMonAnActivity.this, DanhSachDatHangActivity.class);
-                        startActivity(intent3);
-                        break;
-
-
-                }
-
-                return false;
-            }
-        });
     }
 
     @Override
@@ -153,24 +123,24 @@ public class NhapLoaiMonAnActivity extends AppCompatActivity {
     }
     public void NavigationView()
     {
-        setSupportActionBar(toolbar);
-        //set màu của bar
-        toolbar.setBackgroundColor(Color.BLUE);
-        //enable cái icon lên
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        // chèn icon ba gạch
-        toolbar.setNavigationIcon(android.R.drawable.ic_menu_sort_by_size);
+//        setSupportActionBar(toolbar);
+//        //set màu của bar
+//        toolbar.setBackgroundColor(Color.BLUE);
+//        //enable cái icon lên
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        // chèn icon ba gạch
+//        toolbar.setNavigationIcon(android.R.drawable.ic_menu_sort_by_size);
+//
+//        // sự kiện khi nhấn nút hiện ra cái navigation
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                // chạy cái navigation ra thông qua cái Drawer
+//                drawerLayout.openDrawer(Gravity.START);
+//            }
+//        });
 
-        // sự kiện khi nhấn nút hiện ra cái navigation
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // chạy cái navigation ra thông qua cái Drawer
-                drawerLayout.openDrawer(Gravity.START);
-            }
-        });
-
-
+        //set lại màu
 
     }
     private void AnhXa() {

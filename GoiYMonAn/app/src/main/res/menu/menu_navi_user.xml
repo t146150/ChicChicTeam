@@ -29,7 +29,7 @@
     <item
 
         android:title="Đăng xuất"
-        android:id="@+id/menuDangNhap"
+        android:id="@+id/menuDangXuat"
         android:icon="@android:drawable/ic_delete"
         />
 

@@ -230,18 +230,14 @@ public class DangNhapActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                switch (item.getItemId()) {
-                    case R.id.menuTrangChu:
-                        Intent intent = new Intent(DangNhapActivity.this, MainActivity.class);
-                        startActivity(intent);
-                        break;
-
-                    case R.id.menuContact:
-                        Intent intent2 = new Intent(DangNhapActivity.this, ContactActivity.class);
-                        startActivity(intent2);
-                        break;
-                }
-
+//                switch (item.getItemId()) {
+//                    case R.id.menuTrangChu:
+//                        Intent intent = new Intent(DangNhapActivity.this, MainActivity.class);
+//                        startActivity(intent);
+//                        break;
+//
+//                }
+//
                 return false;
             }
         });
