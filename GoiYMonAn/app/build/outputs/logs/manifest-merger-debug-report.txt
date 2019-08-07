@@ -1,0 +1,346 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:2:1-66:12
+	package
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:9:5-64:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\minhduc\.android\build-cache\6e55349077519b961a291ed8c96d35a60d8a64a9\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\minhduc\.android\build-cache\2a4960c9354379dde6ef3940bd8098d064456f22\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\minhduc\.android\build-cache\6d0574730bd2694297a1fb918f501fdc1aa9e2d0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\minhduc\.android\build-cache\364600629e34652529570c89e869f048f0760c5f\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\minhduc\.android\build-cache\6c3fd59254461a24e2e856f6c4e7e227a475db4b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:28:5-38:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\minhduc\.android\build-cache\7342791d9aacf1fd17dea96f446213c05f18a1aa\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\minhduc\.android\build-cache\a6876b49049bd7e40d969801af8f8289372b8058\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\minhduc\.android\build-cache\e25aac3e459db337593c0a8ac8a7dd930f1ba639\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\minhduc\.android\build-cache\8a309df3d9c85b9b7344511d2e19241ea23ad891\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\minhduc\.android\build-cache\f05e9b14c656d6f0cfa1b0f8a1ca2f11267b853c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\minhduc\.android\build-cache\b826f5c543339f8ad89bb0359f6be8c0aec4a156\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\minhduc\.android\build-cache\79609dd8a7414dfdede00fd5582af53d840c19d1\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\minhduc\.android\build-cache\87de81cc9a7a89742abab9be744505eaf13162fe\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\minhduc\.android\build-cache\7b323e2a1f9082165a9e91859853a96f989b39d1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\minhduc\.android\build-cache\026b39829c923bd16727b1221d13e03860368bb5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\minhduc\.android\build-cache\283b4f438ffcf3b08b625aa3dd6842f4a17e10c8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\minhduc\.android\build-cache\4e8a1534f27701e4f02e960957a8834707c5d91b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\minhduc\.android\build-cache\935381b5f2d6334f4015b1ad4fb3d67651a0711f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\minhduc\.android\build-cache\894f5dc7c01590124ba3b9485f62b87894382d10\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:13:9-54
+	android:allowBackup
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:11:9-38
+	android:theme
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.minhduc.goiymonan.MainActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:16:9-22:24
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.minhduc.goiymonan.LoaiMonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:23:19-52
+activity#com.minhduc.goiymonan.NhapLoaiMonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:24:9-59
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:24:19-56
+activity#com.minhduc.goiymonan.MonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:25:19-48
+activity#com.minhduc.goiymonan.NhapMonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:26:9-55
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:26:19-52
+activity#com.minhduc.goiymonan.User.ChiTietMonAnUserActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:27:9-67
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:27:19-64
+activity#com.minhduc.goiymonan.User.DatMuaActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:28:9-57
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:28:19-54
+activity#com.minhduc.goiymonan.ChiTietMonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:29:9-31:24
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:29:19-55
+activity#com.minhduc.goiymonan.CapNhatMonAnActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:32:9-35:24
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.minhduc.goiymonan.DangNhapActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:36:9-39:20
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.minhduc.goiymonan.User.MonAnUserActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:40:9-60
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:40:19-57
+activity#com.minhduc.goiymonan.DanhSachMonNgonActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:41:9-61
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:41:19-58
+activity#com.minhduc.goiymonan.User.UserMainActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:42:9-44:24
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:42:19-56
+activity#com.minhduc.goiymonan.User.GioHangActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:45:9-47:24
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:45:19-55
+activity#com.minhduc.goiymonan.User.ContactActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:48:9-58
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:48:19-55
+activity#com.minhduc.goiymonan.User.VideoActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:49:9-65
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:49:19-53
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:51:9-53:55
+	android:value
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:52:13-58
+activity#com.facebook.FacebookActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:55:9-58:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:58:13-45
+	android:configChanges
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:57:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:56:13-57
+activity#com.minhduc.goiymonan.User.PlayVideoActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:59:9-60
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:59:19-57
+activity#com.minhduc.goiymonan.User.DanhSachVideoActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:60:9-62:20
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:60:19-61
+activity#com.minhduc.goiymonan.DanhSachDatHangActivity
+ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:63:9-70
+	android:name
+		ADDED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml:63:19-58
+uses-sdk
+INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\minhduc\.android\build-cache\6e55349077519b961a291ed8c96d35a60d8a64a9\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\minhduc\.android\build-cache\2a4960c9354379dde6ef3940bd8098d064456f22\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\minhduc\.android\build-cache\77515462226b2b5dd93f01bb80ac068a12570969\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\minhduc\.android\build-cache\6d0574730bd2694297a1fb918f501fdc1aa9e2d0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\minhduc\.android\build-cache\d97eaa5a59d705b5b43a7c6352bf8c6e5e9240e9\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\minhduc\.android\build-cache\08e25e1d2c99c9d3f211122bce1d662eba0ce73a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] C:\Users\minhduc\.android\build-cache\7911c6a10d95d13ec6b0ea69643237de806df18d\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] C:\Users\minhduc\.android\build-cache\9cbeef8d1fe8294b4aa65519eb4628c9d200b377\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\minhduc\.android\build-cache\364600629e34652529570c89e869f048f0760c5f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\minhduc\.android\build-cache\6c3fd59254461a24e2e856f6c4e7e227a475db4b\output\AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\minhduc\.android\build-cache\7342791d9aacf1fd17dea96f446213c05f18a1aa\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\minhduc\.android\build-cache\a6876b49049bd7e40d969801af8f8289372b8058\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\minhduc\.android\build-cache\e25aac3e459db337593c0a8ac8a7dd930f1ba639\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\minhduc\.android\build-cache\8a309df3d9c85b9b7344511d2e19241ea23ad891\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\minhduc\.android\build-cache\f05e9b14c656d6f0cfa1b0f8a1ca2f11267b853c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\minhduc\.android\build-cache\b826f5c543339f8ad89bb0359f6be8c0aec4a156\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\minhduc\.android\build-cache\79609dd8a7414dfdede00fd5582af53d840c19d1\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\minhduc\.android\build-cache\87de81cc9a7a89742abab9be744505eaf13162fe\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\minhduc\.android\build-cache\7b323e2a1f9082165a9e91859853a96f989b39d1\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\minhduc\.android\build-cache\026b39829c923bd16727b1221d13e03860368bb5\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\minhduc\.android\build-cache\283b4f438ffcf3b08b625aa3dd6842f4a17e10c8\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\minhduc\.android\build-cache\4e8a1534f27701e4f02e960957a8834707c5d91b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\minhduc\.android\build-cache\935381b5f2d6334f4015b1ad4fb3d67651a0711f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\minhduc\.android\build-cache\894f5dc7c01590124ba3b9485f62b87894382d10\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\minhduc\.android\build-cache\2a4960c9354379dde6ef3940bd8098d064456f22\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\minhduc\.android\build-cache\15986518932fe93ee42846fab58070a323c9b670\output\AndroidManifest.xml:19:19-85
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:34:13-58
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:37:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\minhduc\.android\build-cache\b2286448447f28d7ccf619ef35ca54a2281912e7\output\AndroidManifest.xml:37:19-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\minhduc\.android\build-cache\49f8158084a8642b36f7d40b725211f3964f34b2\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\minhduc\.android\build-cache\dd623d06586f382b7ded83626d68c93c1f7cd1e2\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\minhduc\.android\build-cache\fca55b56ee65cd3538ea961406658cca6c62e1e9\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\minhduc\.android\build-cache\a301da9a49be0e347c737c303dbc37be433b816c\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\minhduc\.android\build-cache\87de81cc9a7a89742abab9be744505eaf13162fe\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\minhduc\.android\build-cache\87de81cc9a7a89742abab9be744505eaf13162fe\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\minhduc\.android\build-cache\87de81cc9a7a89742abab9be744505eaf13162fe\output\AndroidManifest.xml:20:20-65

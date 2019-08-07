@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">791918528781-3s3vq7cbd5laesd89idpl906n1qkg6kr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://goiymonan.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">791918528781</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUVF0VOivBPIg41AiyIBUgo9ad7533RPk</string>
+    <string name="google_app_id" translatable="false">1:791918528781:android:795770d5c18a4662</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUVF0VOivBPIg41AiyIBUgo9ad7533RPk</string>
+    <string name="google_storage_bucket" translatable="false">goiymonan.appspot.com</string>
+</resources>

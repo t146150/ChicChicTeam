@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dangnhap.xml",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_dangnhap.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navi_user.xml",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_navi_user.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navi_user.xml",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_navi_user.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navi.xml",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_navi.xml"
+    },
+    {
+        "merged": "E:\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dangnhap.xml",
+        "source": "E:\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_dangnhap.xml"
+    },
+    {
+        "merged": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navi.xml",
+        "source": "E:\\ChicChic_DucDeveloper\\ChicChicTeam\\GoiYMonAn\\app\\src\\main\\res\\menu\\menu_navi.xml"
+    }
+]

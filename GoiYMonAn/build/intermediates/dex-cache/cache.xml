@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\GoiYMonAn\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="E:\GoiYMonAn\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_13ec0c904b0f321587ab6b1ad8e4e63d1582c283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="E:\ChicChic_DucDeveloper\ChicChicTeam\GoiYMonAn\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_88e7b9a84e87ce88d551adc610ca28f51f18a9c0.jar" />
+    </item>
+
+</items>
